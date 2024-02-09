@@ -1,33 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+body { 
+    background-color: #e5e7eb;
+    color: #18181b;
+    margin: 0;
+    padding: 0;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.vertical-lines {
+    background: linear-gradient(to bottom, 
+                transparent 47%, 
+                rgba(0, 0, 0, .25) 50%, 
+                rgba(0, 0, 0, .25) 50.5%, 
+                transparent 51%);
+    background-size: 20px 20px;
+    animation: moveVerticalLines 1s linear infinite;
+    background-position: top left; /* Ensure vertical lines start from the top */
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+@keyframes moveVerticalLines {
+    0% {
+        background-position: 0 0; /* Start position */
+    }
+    100% {
+        background-position: 0 20px; /* End position */
+    }
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.diagonal-lines {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom right, 
+                transparent 47%, 
+                rgba(0, 0, 0, 0.1) 50%, 
+                rgba(0, 0, 0, 0.1) 50.5%, 
+                transparent 51%);
+    background-size: 20px 20px;
+    animation: moveDiagonalLines 1s linear infinite;
+    background-position: top left; /* Ensure diagonal lines start from the top */
+}
+
+@keyframes moveDiagonalLines {
+    0% {
+        background-position: 0 0; /* Start position */
+    }
+    100% {
+        background-position: 20px 20px; /* End position */
+    }
 }
