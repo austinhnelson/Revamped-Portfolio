@@ -14,10 +14,10 @@ const LatestWork = () => {
             </h3>
             <p className="text-gray-600 ">
               I recently relocated to the scenic landscapes of Pullman,
-              Washington, where I'm poised to embark on an exciting journey with
-              SEL. Thrilled to kickstart my tenure as an associate engineer,
-              I'll be diving into the dynamic engineer rotation program for the
-              next exciting 18 months!
+              Washington, where I&apos;m poised to embark on an exciting journey
+              with SEL. Thrilled to kickstart my tenure as an associate
+              engineer, I&apos;ll be diving into the dynamic engineer rotation
+              program for the next exciting 18 months!
             </p>
           </div>
           <div className="bg-white p-6 rounded-lg vertical-lines shadow-2xl hover:bg-gray-200 hover:outline hover:outline-teal-600 hover:text-black">
@@ -25,10 +25,11 @@ const LatestWork = () => {
               Exploring Reinforcement Learning
             </h3>
             <p className="text-gray-600">
-              I've been diving into the world of machine learning by attempting
-              to learn more about reinforcement learning and create a project to
-              reiterate this. I've begun working on a lunar landing game (made
-              in Pygame) and then creating a model to correctly master the game.
+              I&apos;ve been diving into the world of machine learning by
+              attempting to learn more about reinforcement learning and create a
+              project to reiterate this. I&apos;ve begun working on a lunar
+              landing game (made in Pygame) and then creating a model to
+              correctly master the game.
             </p>
           </div>
           <div className="bg-white p-6 rounded-lg vertical-lines shadow-2xl hover:bg-gray-200 hover:outline hover:outline-teal-600 hover:text-black">
@@ -37,8 +38,8 @@ const LatestWork = () => {
             </h3>
             <p className="text-gray-600">
               After 3.5 years, I can officially say that I am a college graduate
-              with a Bachelor's Degree in Computer Science from Boise State
-              University! I've deferred the commencement ceremony until the
+              with a Bachelor&apos;s Degree in Computer Science from Boise State
+              University! I&apos;ve deferred the commencement ceremony until the
               Spring, where I can celebrate with all of my friends and enjoy the
               moment together.
             </p>

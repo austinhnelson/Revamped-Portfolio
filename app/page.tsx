@@ -21,7 +21,7 @@ export default function Home() {
         </div>
         <div className="text-center mt-4">
           <p className="text-lg">
-            I'm an aspiring software engineer with a passion to change the
+            I&apos;m an aspiring software engineer with a passion to change the
             world.
           </p>
         </div>

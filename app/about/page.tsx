@@ -24,10 +24,10 @@ const About = () => {
             </p>
             <p className="text-lg mt-4">
               In my free time, I enjoy working out and exploring my cooking
-              abilities. I'm always looking for opportunities to learn and grow
-              both personally and professionally. In my free time, I enjoy
-              working out and exploring my cooking abilities. I'm always looking
-              for opportunities to learn and grow both personally and
+              abilities. I&apos;m always looking for opportunities to learn and
+              grow both personally and professionally. In my free time, I enjoy
+              working out and exploring my cooking abilities. I&apos;m always
+              looking for opportunities to learn and grow both personally and
             </p>
           </div>
 
@@ -38,8 +38,8 @@ const About = () => {
               I was raised in sunny Southern California and ventured to the
               always vibrant Boise, Idaho to pursue my passion for computer
               science at Boise State University. After graduating, I currently
-              reside in Pullman, WA where I am a part of SEL's engineer rotation
-              program.
+              reside in Pullman, WA where I am a part of SEL&apos;s engineer
+              rotation program.
             </p>
           </div>
         </div>
@@ -64,8 +64,8 @@ const About = () => {
             </h2>
             <p className="text-lg">
               Talk about some of the places you dream of visiting. It could be
-              destinations you've always wanted to explore or experiences you're
-              eager to have.
+              destinations you&apos;ve always wanted to explore or experiences
+              you&apos;re eager to have.
             </p>
           </div>
         </div>
